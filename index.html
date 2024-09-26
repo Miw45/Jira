@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game - เกมทายคำศัพท์</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>เกมทายคำศัพท์ (Hangman)</h1>
+        <p>ทายคำศัพท์: <span id="wordDisplay"></span></p>
+        <p>ทายผิดได้อีก: <span id="remainingGuesses"></span> ครั้ง</p>
+        <div id="letterButtons"></div>
+        <p id="message"></p>
+        <button id="resetButton" onclick="resetGame()">เริ่มเกมใหม่</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
